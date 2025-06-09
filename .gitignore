@@ -1,0 +1,49 @@
+# Binários e executáveis
+k8s-performance-analyzer
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Arquivos de teste
+*.test
+*.out
+
+# Arquivos de cobertura
+*.cover
+coverage.txt
+
+# Diretórios de dependências
+vendor/
+/vendor/
+
+# Diretório de relatórios gerados
+performance-reports/
+
+# Arquivos de IDE e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Arquivos de configuração local
+config.local.yaml
+config.local.json 
